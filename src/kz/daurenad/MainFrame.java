@@ -8,6 +8,7 @@ public class MainFrame extends JFrame {
     public static ListDevices listWindow;
     public static Welcome welcomeWindow;
     public static Developer developer;
+    public static ChatClient chatClient;
 
     public MainFrame() throws Exception {
         setSize(600, 700);
@@ -38,6 +39,8 @@ public class MainFrame extends JFrame {
         developer.setLocation(0,0);
         developer.setVisible(false);
         add(developer);
+
+
     }
 
 
